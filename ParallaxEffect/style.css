@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.img1{
+    width: 100%;
+    position: absolute;
+    /*margin-bottom: 100px;*/
+    /*transform: translate(0, -50%);*/
+    /*transform: translateY(-700px);*/
+}
+.block1{
+    position: relative;
+    overflow: hidden;
+    /*height: 65%;*/
+    height: 911px;
+}
+.img2{
+    width: 100%;
+    position: absolute;
+}
+.block2{
+    position: relative;
+    overflow: hidden;
+    height: 911px;
+}
+.img3{
+    width: 100%;
+    position: absolute;
+}
+.block3{
+    position: relative;
+    overflow: hidden;
+    height: 911px;
+}
