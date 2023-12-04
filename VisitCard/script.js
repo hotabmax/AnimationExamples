@@ -1,6 +1,6 @@
 const animScroll = gsap.timeline();
 animScroll
-    .from(".black-block1", {x:"+100%"})
+    .to(".black-block1", {opacity:1})
     .from(".text1", {opacity: 0, scale: 0.75})
     .from(".image2", 1, {y:'100%'})
     .to(".black-block2", {opacity: 1})

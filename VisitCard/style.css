@@ -7,6 +7,7 @@ body{
     position: absolute;
     margin: 0;
     padding: 0;
+    width: 100%;
 }
 .text1{
     position: absolute;
@@ -16,6 +17,7 @@ body{
     margin-top: 25%;
 }
 .black-block1{
+    opacity: 0;
     position: absolute;
     background-color: black;
     right: 0;
