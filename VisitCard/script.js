@@ -2,17 +2,17 @@ const animScroll = gsap.timeline();
 animScroll
     .from(".black-block1", {x:"+100%"})
     .from(".text1", {opacity: 0, scale: 0.75})
-    .from(".image2",{y:'100%'})
+    .from(".image2", 1, {y:'100%'})
     .to(".black-block2", {opacity: 1})
     .to(".text2", {opacity: 1})
-    .from(".image3",{y:'-100%'})
+    .from(".image3", 1, {y:'-100%'})
     .to(".black-block3", {opacity: 1})
     .to(".text3", {opacity: 1});
 ScrollTrigger.create({
     animation: animScroll,
     trigger: '.block',
     start: '800px center',
-    end: '4000px bottom',
+    end: '6000px bottom',
     markers: true,
     scrub: true,
     pin: true,
