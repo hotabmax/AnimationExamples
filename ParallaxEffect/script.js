@@ -10,4 +10,5 @@ ScrollTrigger.create({
     end: '2700px bottom',
     markers: true,
     scrub: true,
+    pinSpacing: false
 })
