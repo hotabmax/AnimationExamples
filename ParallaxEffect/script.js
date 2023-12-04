@@ -7,7 +7,7 @@ ScrollTrigger.create({
     animation: animScroll,
     trigger: '.block',
     start: 'top top',
-    end: '2700px bottom',
+    end: 'bottom bottom',
     markers: true,
     scrub: true,
     pinSpacing: false
